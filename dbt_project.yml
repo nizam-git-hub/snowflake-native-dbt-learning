@@ -1,0 +1,11 @@
+name: 'snowflake_native_dbt_learning'
+version: '1.0.0'
+config-version: 2
+
+profile: 'snowflake_native_dbt_learning'
+
+model-paths: ["models"]
+
+models:
+  snowflake_native_dbt_learning:
+    +materialized: view
